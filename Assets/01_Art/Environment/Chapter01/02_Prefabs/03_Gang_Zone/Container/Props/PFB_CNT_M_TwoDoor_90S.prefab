@@ -170,6 +170,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4519951627710696566}
     m_Modifications:
+    - target: {fileID: 1784356022967117737, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 466cfc4a420f97e418ca2731a56e94fc, type: 2}
     - target: {fileID: 6113755042716395274, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
       propertyPath: m_Name
       value: PFB_Container_Panel_M (2)
@@ -232,6 +236,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4519951627710696566}
     m_Modifications:
+    - target: {fileID: 1784356022967117737, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 466cfc4a420f97e418ca2731a56e94fc, type: 2}
     - target: {fileID: 6113755042716395274, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
       propertyPath: m_Name
       value: PFB_Container_Panel_M (1)
@@ -356,6 +364,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4519951627710696566}
     m_Modifications:
+    - target: {fileID: 1784356022967117737, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 466cfc4a420f97e418ca2731a56e94fc, type: 2}
     - target: {fileID: 6113755042716395274, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
       propertyPath: m_Name
       value: PFB_Container_Panel_M
@@ -418,6 +430,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4519951627710696566}
     m_Modifications:
+    - target: {fileID: 1784356022967117737, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 466cfc4a420f97e418ca2731a56e94fc, type: 2}
     - target: {fileID: 6113755042716395274, guid: daf4b675f8b127848800b503a6bb79fc, type: 3}
       propertyPath: m_Name
       value: PFB_Container_Panel_M (3)

@@ -42,10 +42,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2588419856833807808}
     m_Modifications:
-    - target: {fileID: 5037885661894022803, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e441c8a1ebaae24488ff41958cfe545, type: 2}
     - target: {fileID: 7391407196454190421, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.92
@@ -174,10 +170,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_CNT_M_TwoDoor_90S (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2488244310986056409, guid: 7a958dc11fb30004f8b7cead2d2dcd7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e441c8a1ebaae24488ff41958cfe545, type: 2}
     - target: {fileID: 4519951627710696566, guid: 7a958dc11fb30004f8b7cead2d2dcd7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.72
@@ -218,18 +210,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5076184960448549150, guid: 7a958dc11fb30004f8b7cead2d2dcd7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e441c8a1ebaae24488ff41958cfe545, type: 2}
-    - target: {fileID: 7418046963393515686, guid: 7a958dc11fb30004f8b7cead2d2dcd7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e441c8a1ebaae24488ff41958cfe545, type: 2}
-    - target: {fileID: 7661840543468079475, guid: 7a958dc11fb30004f8b7cead2d2dcd7a, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e441c8a1ebaae24488ff41958cfe545, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

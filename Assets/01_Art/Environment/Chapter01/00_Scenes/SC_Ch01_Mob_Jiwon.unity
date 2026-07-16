@@ -68516,7 +68516,7 @@ PrefabInstance:
     - target: {fileID: 2292767735868199412, guid: 2c8b97e47f7f12c4aa4ddc1642a1f076, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1e441c8a1ebaae24488ff41958cfe545, type: 2}
+      objectReference: {fileID: 2100000, guid: d5ffd72390f2f994896ccc9b92701603, type: 2}
     - target: {fileID: 3593484608568319543, guid: 2c8b97e47f7f12c4aa4ddc1642a1f076, type: 3}
       propertyPath: m_Name
       value: PFB_WatchTower_Cluster_A
@@ -68561,6 +68561,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6374791977159588481, guid: 2c8b97e47f7f12c4aa4ddc1642a1f076, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d5ffd72390f2f994896ccc9b92701603, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

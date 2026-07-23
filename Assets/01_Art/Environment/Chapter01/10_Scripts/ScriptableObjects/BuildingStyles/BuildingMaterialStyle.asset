@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0a66f4e7685a545992d7bda2703ee5, type: 3}
+  m_Name: BuildingMaterialStyle
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingMaterialStyleSO
+  entries:
+  - moduleId: 0
+    baseMaterial: {fileID: 2100000, guid: 28f051cc68dd45148849f1c9edbf3792, type: 2}
+    colorPalette: []
+    useDirt: 1
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 1
+    baseMaterial: {fileID: 2100000, guid: 28f051cc68dd45148849f1c9edbf3792, type: 2}
+    colorPalette: []
+    useDirt: 1
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 2
+    baseMaterial: {fileID: 2100000, guid: 28f051cc68dd45148849f1c9edbf3792, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 3
+    baseMaterial: {fileID: 2100000, guid: a4e6f7ba29e4f414db4d02ebd124f647, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 4
+    baseMaterial: {fileID: 2100000, guid: a4e6f7ba29e4f414db4d02ebd124f647, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 5
+    baseMaterial: {fileID: 2100000, guid: 9b86f3a789583a04eacb9beee0d77ea2, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 6
+    baseMaterial: {fileID: 2100000, guid: a4e6f7ba29e4f414db4d02ebd124f647, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 7
+    baseMaterial: {fileID: 2100000, guid: a4e6f7ba29e4f414db4d02ebd124f647, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 8
+    baseMaterial: {fileID: 2100000, guid: 60342e1f351b50542936fcd68678f52b, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 9
+    baseMaterial: {fileID: 2100000, guid: 9b86f3a789583a04eacb9beee0d77ea2, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 10
+    baseMaterial: {fileID: 2100000, guid: 7f0c7f7eb0c005d4f9872178b5e228f8, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 11
+    baseMaterial: {fileID: 2100000, guid: 9b86f3a789583a04eacb9beee0d77ea2, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 12
+    baseMaterial: {fileID: 2100000, guid: 7f0c7f7eb0c005d4f9872178b5e228f8, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 13
+    baseMaterial: {fileID: 2100000, guid: 9aa40370bf92aff48a954b37a2856012, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 14
+    baseMaterial: {fileID: 2100000, guid: a4e6f7ba29e4f414db4d02ebd124f647, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 15
+    baseMaterial: {fileID: 2100000, guid: ffa7a7658301d3547899bdce082d77a8, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 16
+    baseMaterial: {fileID: 2100000, guid: 99ab1f52b5b5bd34f9be78b7cabd9b32, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 17
+    baseMaterial: {fileID: 2100000, guid: a4e6f7ba29e4f414db4d02ebd124f647, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 18
+    baseMaterial: {fileID: 2100000, guid: 9b86f3a789583a04eacb9beee0d77ea2, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}
+  - moduleId: 19
+    baseMaterial: {fileID: 2100000, guid: 9b86f3a789583a04eacb9beee0d77ea2, type: 2}
+    colorPalette: []
+    useDirt: 0
+    dirtMode: 1
+    dirtIntensityFixed: 0.5
+    dirtIntensityRandomRange: {x: 0.2, y: 0.8}
+    dirtSmoothness: 0.2
+    dirtMetallic: 0
+    useNoise: 1
+    noiseMode: 1
+    noiseIntensityFixed: 0.15
+    noiseIntensityRandomRange: {x: 0.05, y: 0.2}
+    baseTilingDensity: 1
+    atlasVariantCount: 1
+    atlasGrid: {x: 1, y: 1}

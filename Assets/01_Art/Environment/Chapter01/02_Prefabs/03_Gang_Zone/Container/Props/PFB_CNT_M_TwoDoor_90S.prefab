@@ -46,6 +46,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4519951627710696566}
     m_Modifications:
+    - target: {fileID: 1545338453556390855, guid: 40bd30579bf6bb24eb6c435cb76fe28e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 59dcb479cdaef1f4681b043fbb148b3b, type: 2}
+    - target: {fileID: 6084122574925274664, guid: 40bd30579bf6bb24eb6c435cb76fe28e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 59dcb479cdaef1f4681b043fbb148b3b, type: 2}
     - target: {fileID: 7174866575925623375, guid: 40bd30579bf6bb24eb6c435cb76fe28e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.068077
@@ -108,6 +116,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4519951627710696566}
     m_Modifications:
+    - target: {fileID: 2842140263930499746, guid: b5f87697148a8ac4ea5d4801437700ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 59dcb479cdaef1f4681b043fbb148b3b, type: 2}
     - target: {fileID: 3972986245371572453, guid: b5f87697148a8ac4ea5d4801437700ab, type: 3}
       propertyPath: m_Name
       value: PFB_CNT_Door_90S
@@ -152,6 +164,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8081055066558631245, guid: b5f87697148a8ac4ea5d4801437700ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 59dcb479cdaef1f4681b043fbb148b3b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5717679029055096279, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a4a187f15673c40a692623bcf66329, type: 2}
     - target: {fileID: 7092086338976390567, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
       propertyPath: m_Name
       value: PFB_SideWalk_Floor_4X4m (2)
@@ -145,6 +149,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5717679029055096279, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a4a187f15673c40a692623bcf66329, type: 2}
     - target: {fileID: 7092086338976390567, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
       propertyPath: m_Name
       value: PFB_SideWalk_Floor_4X4m (3)
@@ -207,6 +215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5717679029055096279, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a4a187f15673c40a692623bcf66329, type: 2}
     - target: {fileID: 7092086338976390567, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
       propertyPath: m_Name
       value: PFB_SideWalk_Floor_4X4m (1)
@@ -269,6 +281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5717679029055096279, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a4a187f15673c40a692623bcf66329, type: 2}
     - target: {fileID: 7092086338976390567, guid: d4003d0f2138cf243a4dc19578666975, type: 3}
       propertyPath: m_Name
       value: PFB_SideWalk_Floor_4X4m

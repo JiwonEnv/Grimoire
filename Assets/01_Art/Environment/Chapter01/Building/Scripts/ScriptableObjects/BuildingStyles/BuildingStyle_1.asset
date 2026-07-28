@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a7c8ab7ca34dd4bac214223ed6caef, type: 3}
+  m_Name: BuildingStyle_1
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingStyleSO
+  middlePrefab: {fileID: 1994289238818949884, guid: a49200ecc4953f147a0cf037c9c931fd, type: 3}
+  roofPrefab: {fileID: 8165284586681845550, guid: d6218e5b5676cf448b35d9bf936b475f, type: 3}
+  roofOverhangPrefab: {fileID: 2471528045416407149, guid: 88fab41fe755f634ea7211eb326e32f7, type: 3}
+  roofOverhangSidePrefab: {fileID: 7218276527592014115, guid: a4db4bcc21ce8d44e93c5b4fe9dfe934, type: 3}
+  floorLinePrefab: {fileID: 815743277187449201, guid: adbf20045ed70ba4d99baa1a67eb9dbd, type: 3}
+  baseModuleWidth: 3
+  middleHeight: 3
+  roofHeight: 0.6
+  baseModuleHeight: 3
+  roofFrontOverhang: 0.3
+  roofOverhangHeight: 0.6
+  floorLineHeight: 0.3
+  buildingDepth: 6
+  lobbyPrefab: {fileID: 1902763134728345942, guid: 2eb53873fa1d6054c8bae497377b492e, type: 3}
+  lobbyHeight: 3.8
+  pillarPrefabResidential: {fileID: 4212500092366666618, guid: 12ece78bdc065e9439b1e5530fdd0ec5, type: 3}
+  pillarPrefabShop: {fileID: 4212500092366666618, guid: ce60c173736cdc841a3e14d5584cadf8, type: 3}
+  middlePillarPrefabResidential: {fileID: 3842462468106250177, guid: 3b2f8a6603bf7bd428c512fa5c8985ff, type: 3}
+  middlePillarPrefabShop: {fileID: 3842462468106250177, guid: 3b2f8a6603bf7bd428c512fa5c8985ff, type: 3}
+  lobbyStepPrefab: {fileID: 2050669840374177705, guid: e7ce7528ff8a63048b1e83e8480855a9, type: 3}
+  lobbyDoorPrefab: {fileID: 1769353795583380021, guid: be772f1e60ae0924eaf24f4890b9e364, type: 3}
+  lobbyDoorStepWidth: 2
+  lobbyBeltPrefab: {fileID: 5998764136519471364, guid: 57ef2a585dcd7eb4cb1d2262c0d3d734, type: 3}
+  showWindowPrefab: {fileID: 7292240287291634142, guid: b96305efa325fd44086b4ff881366500, type: 3}
+  showWindowDoorPrefab: {fileID: 7292240287291634142, guid: 6efdffbeb7434804a9da1c114565bf35, type: 3}
+  showWindowAtlas9m: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  showWindowAtlas12m: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  showWindowAtlasRows9m: 6
+  showWindowAtlasRows12m: 6
+  signboardPrefab9m: {fileID: 6386906254073633479, guid: e116dc7bbd4b6094d9f9762a14ef2f07, type: 3}
+  signboardPrefab12m: {fileID: 3031834728210327010, guid: 45bb932afe9f7b04496190a07bcbfe8d, type: 3}
+  signboardHeight: 0.9
+  signboardBottomY: 2.9
+  signboardAtlas9m: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  signboardAtlas12m: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  signboardAtlasRows9m: 7
+  signboardAtlasRows12m: 7
+  feLandingPrefab: {fileID: 6012390509301067791, guid: 178aa7555e3680f499e47625044600e1, type: 3}
+  feStairPrefab: {fileID: 6012390509301067791, guid: 621c8133beb1778438103c3457a41c95, type: 3}
+  feRightMargin: 0.5
+  feLandingYOffset: 0.4
+  windowPrefab: {fileID: 6252897971915733313, guid: c110dbe97df1f724bb65de13915e4725, type: 3}
+  windowWidth: 1
+  frontHasWindow: 1
+  backHasWindow: 0
+  leftHasWindow: 1
+  rightHasWindow: 1
+  windowVerticalOffset: -0.3
+  outdoorUnitPrefab: {fileID: 647845861719438864, guid: 20ae34257d2a7d94d8384725e87b71cb, type: 3}
+  outdoorUnitSpawnChance: 0.3
+  outdoorUnitOffset: {x: 0.3, y: -0.3}
+  materialStyle: {fileID: 11400000, guid: 1279c80af37a7c844a6d8aedf4cefdea, type: 2}
+  dirtSeedRange: {x: 0, y: 1}

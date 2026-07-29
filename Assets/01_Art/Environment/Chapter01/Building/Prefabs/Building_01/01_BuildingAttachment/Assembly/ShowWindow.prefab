@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affc7dc52f00f584e9ba894a22e43658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GlassMarker
-  mode: 0
+  mode: 1
 --- !u!4 &8020773390837225760 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4781438762320701735, guid: ef660162ef5175145b9f45163bbc55d1, type: 3}

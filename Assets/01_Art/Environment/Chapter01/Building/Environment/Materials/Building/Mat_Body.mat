@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseTex:
-        m_Texture: {fileID: 2800000, guid: ba3e724b0a9218e4591f9159fe8d6914, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1d9f89d9c560fe6448872dfbadb68923, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -62,11 +62,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DirtMaskTex:
-        m_Texture: {fileID: 2800000, guid: f9af7dab26116e14e835f02c735e039c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DirtNormalTex:
-        m_Texture: {fileID: 2800000, guid: fc25557db5091e54c8ea872cbb70d63f, type: 3}
+        m_Texture: {fileID: 2800000, guid: b00b773cf4994ee44977d9262172f314, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DirtUnderLayerTex:
@@ -86,15 +86,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: b60d4c7971a6ad0448c53a76f7876084, type: 3}
+        m_Texture: {fileID: 2800000, guid: ec82c52f7b1dbe347930e23fef504c52, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: cd37c814ce7a7424b9b4b2ad16027ec1, type: 3}
+        m_Texture: {fileID: 2800000, guid: b8c98cf412260584fb35a22d1e467143, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ORMTex:
-        m_Texture: {fileID: 2800000, guid: a54f25017cde9fa488e129a255a12c74, type: 3}
+        m_Texture: {fileID: 2800000, guid: d591c5fd3f94db046b784bed3e6f579d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -136,9 +136,9 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DirtIntensity: 0.28
-    - _DirtMetallic: 1.96
+    - _DirtMetallic: 0
     - _DirtSeed: 0.15
-    - _DirtSmoothness: 0.43
+    - _DirtSmoothness: -1.03
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -169,7 +169,7 @@ Material:
     - _BaseColorTint: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0.67180943, g: 0.65850836, b: 0.9245283, a: 1}
+    - _RimColor: {r: 0.57280886, g: 0.56136525, b: 0.8207547, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TilingScale: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

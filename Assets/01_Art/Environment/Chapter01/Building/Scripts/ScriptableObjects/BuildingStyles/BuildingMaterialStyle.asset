@@ -16,13 +16,13 @@ MonoBehaviour:
   - moduleId: 0
     baseMaterial: {fileID: 0}
     colorPalette: []
-    useDirt: 0
+    useDirt: 1
     dirtMode: 0
     dirtIntensityFixed: 0
     dirtIntensityRandomRange: {x: 0, y: 0}
     dirtSmoothness: 0
     dirtMetallic: 0
-    useNoise: 0
+    useNoise: 1
     noiseMode: 0
     noiseIntensityFixed: 0
     noiseIntensityRandomRange: {x: 0, y: 0}
@@ -32,7 +32,7 @@ MonoBehaviour:
   - moduleId: 1
     baseMaterial: {fileID: 0}
     colorPalette: []
-    useDirt: 0
+    useDirt: 1
     dirtMode: 1
     dirtIntensityFixed: 0.5
     dirtIntensityRandomRange: {x: 0.2, y: 0.8}
@@ -48,7 +48,7 @@ MonoBehaviour:
   - moduleId: 2
     baseMaterial: {fileID: 0}
     colorPalette: []
-    useDirt: 0
+    useDirt: 1
     dirtMode: 1
     dirtIntensityFixed: 0.5
     dirtIntensityRandomRange: {x: 0.2, y: 0.8}

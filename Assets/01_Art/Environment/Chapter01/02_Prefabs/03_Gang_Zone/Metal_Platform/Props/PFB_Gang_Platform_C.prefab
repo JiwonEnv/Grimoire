@@ -285,6 +285,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3003710527546670079, guid: dde8316ab07abf9449802b7e0dd0b366, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d5ffd72390f2f994896ccc9b92701603, type: 2}
+    - target: {fileID: 3003710527546670079, guid: dde8316ab07abf9449802b7e0dd0b366, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 7390680968001365327, guid: dde8316ab07abf9449802b7e0dd0b366, type: 3}
       propertyPath: m_Name
       value: PFB_Metal_Platform_B (2)
@@ -493,6 +501,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 305791873313171418}
     m_Modifications:
+    - target: {fileID: 3017768725471586595, guid: f01479a852148bf479eb93bd87ce945c, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 5680479823951604881, guid: f01479a852148bf479eb93bd87ce945c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.0585055
@@ -1029,6 +1041,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3003710527546670079, guid: dde8316ab07abf9449802b7e0dd0b366, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 7390680968001365327, guid: dde8316ab07abf9449802b7e0dd0b366, type: 3}
       propertyPath: m_Name
       value: PFB_Metal_Platform_B (7)

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2547630598693023920
+--- !u!114 &-4917613663683123931
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,15 +20,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_Concrete_Wall
+  m_Name: MAT_Trim_Metal_Red
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+  m_Parent: {fileID: 2100000, guid: 8b9b76221c335b84fb5439545d9011d9, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _PARALLAXMAP
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _METALLICGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -41,35 +42,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 1ef16b476a72c9d48b1e8840b43e9d99, type: 3}
-        m_Scale: {x: 3, y: 3}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 17b67a94db62234489d22f05b36a05d7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1ef16b476a72c9d48b1e8840b43e9d99, type: 3}
-        m_Scale: {x: 3, y: 3}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 649e0ed43b2a46d41bf5730396cde574, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 26accff8ff3730e4491e9ad2ee235056, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed7ab0d8debb2074392ab266370b91d2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GlossMapScale: 0
-    - _Glossiness: 0
-    - _GlossyReflections: 0
-    - _Parallax: 0.048
-    - _Smoothness: 0.324
+    - _Smoothness: 0.552
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.6320754, g: 0.15801886, b: 0.15801886, a: 1}
+    - _Color: {r: 0.6320754, g: 0.15801883, b: 0.15801883, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

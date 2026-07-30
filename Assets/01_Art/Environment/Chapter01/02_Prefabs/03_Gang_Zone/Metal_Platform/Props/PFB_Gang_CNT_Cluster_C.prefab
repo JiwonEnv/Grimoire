@@ -106,10 +106,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5147333732560133243}
     m_Modifications:
+    - target: {fileID: 434148659786867082, guid: ee693a7d4cf720049b87a8bfb713be2c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 2700413618136847139, guid: ee693a7d4cf720049b87a8bfb713be2c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 3966145181364202722, guid: ee693a7d4cf720049b87a8bfb713be2c, type: 3}
       propertyPath: m_Name
       value: PFB_CNT_S_TwoDoor_135B
       objectReference: {fileID: 0}
+    - target: {fileID: 5123803324972209253, guid: ee693a7d4cf720049b87a8bfb713be2c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 8811712316315447237, guid: ee693a7d4cf720049b87a8bfb713be2c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 9160138433500412020, guid: ee693a7d4cf720049b87a8bfb713be2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.48
@@ -168,6 +184,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5147333732560133243}
     m_Modifications:
+    - target: {fileID: 392716103912947389, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 2347124664665471856, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 4930937099792649042, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 7030023840060182175, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 7391407196454190421, guid: da50ccd09e439404bad613ff04ab11e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4300227
@@ -234,6 +266,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_CNT_S_TwoDoor_90S
       objectReference: {fileID: 0}
+    - target: {fileID: 669161969377781152, guid: 3e0bd93d0c01f434c8e52d8e086dc6b6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 2872959895093682155, guid: 3e0bd93d0c01f434c8e52d8e086dc6b6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
+    - target: {fileID: 5211886712637575247, guid: 3e0bd93d0c01f434c8e52d8e086dc6b6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     - target: {fileID: 5439821416103048152, guid: 3e0bd93d0c01f434c8e52d8e086dc6b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.57000005
@@ -274,6 +318,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8109345249759854596, guid: 3e0bd93d0c01f434c8e52d8e086dc6b6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b69101042d50db84c8a6aa410b426196, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: DecalStyle
   m_EditorClassIdentifier: Assembly-CSharp::DecalStyleSO
   atlases:
-  - baseColorAtlas: {fileID: 2800000, guid: 38c5fa236b42f60469df60bff0a56478, type: 3}
+  - baseColorAtlas: {fileID: 2800000, guid: 65b8272d1b9a5ff45a4be9d5b30c5460, type: 3}
+    normalAtlas: {fileID: 0}
+    gridSize: {x: 2, y: 2}
+    smoothnessBoost: 0
+    normalBlend: 0.5
+  - baseColorAtlas: {fileID: 2800000, guid: 174cbf9bc7a000343a829795a5f944c3, type: 3}
+    normalAtlas: {fileID: 0}
+    gridSize: {x: 2, y: 2}
+    smoothnessBoost: 0
+    normalBlend: 0.5
+  - baseColorAtlas: {fileID: 2800000, guid: b62a0806a9c677a4298a3e4e4cd10705, type: 3}
     normalAtlas: {fileID: 0}
     gridSize: {x: 3, y: 2}
     smoothnessBoost: 0
     normalBlend: 0.5
-  - baseColorAtlas: {fileID: 2800000, guid: 07c79c1fccde5904a89baeffb1195232, type: 3}
-    normalAtlas: {fileID: 0}
-    gridSize: {x: 3, y: 2}
-    smoothnessBoost: 0
-    normalBlend: 0.5
-  - baseColorAtlas: {fileID: 2800000, guid: 07c79c1fccde5904a89baeffb1195232, type: 3}
-    normalAtlas: {fileID: 0}
-    gridSize: {x: 3, y: 2}
-    smoothnessBoost: 0
-    normalBlend: 0.5
-  decalMaterialTemplate: {fileID: 2100000, guid: 14061e1b98e1cc54aa160a37f52e6140, type: 2}
+  decalMaterialTemplate: {fileID: 2100000, guid: 6d3a659b333cdad4a857c49f9709220e, type: 2}

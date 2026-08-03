@@ -32,7 +32,7 @@ MonoBehaviour:
   - moduleId: 1
     baseMaterial: {fileID: 2100000, guid: 28f051cc68dd45148849f1c9edbf3792, type: 2}
     colorPalette: []
-    useDirt: 0
+    useDirt: 1
     dirtMode: 1
     dirtIntensityFixed: 0.5
     dirtIntensityRandomRange: {x: 0.2, y: 0.8}

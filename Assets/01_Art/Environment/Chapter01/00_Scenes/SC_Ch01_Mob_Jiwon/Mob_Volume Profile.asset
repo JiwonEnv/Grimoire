@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70afe9e12c7a7ed47911bb608a23a8ff, type: 3}
   m_Name: SplitToning
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.SplitToning
-  active: 1
+  active: 0
   shadows:
     m_OverrideState: 1
     m_Value: {r: 0.12971698, g: 0.13497858, b: 0.5188679, a: 1}
@@ -50,6 +50,40 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-6262586932380907339
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+  active: 0
+  shadows:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  midtones:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  highlights:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  shadowsStart:
+    m_OverrideState: 0
+    m_Value: 0
+  shadowsEnd:
+    m_OverrideState: 0
+    m_Value: 0.3
+  highlightsStart:
+    m_OverrideState: 0
+    m_Value: 0.55
+  highlightsEnd:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &-4858810616622482980
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -249,7 +283,7 @@ MonoBehaviour:
   hueVsSat:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 2
+      <length>k__BackingField: 4
       m_Loop: 1
       m_ZeroValue: 0.5
       m_Range: 1
@@ -257,10 +291,28 @@ MonoBehaviour:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.40677965
-          value: 0.17518246
+          time: 0.3590604
+          value: 0.6258993
           inSlope: 0
           outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.4362416
+          value: 0.043165445
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.75838923
+          value: 0.9496403
+          inSlope: 1.1043988
+          outSlope: 1.1043988
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -315,13 +367,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221518ef91623a7438a71fef23660601, type: 3}
   m_Name: WhiteBalance
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.WhiteBalance
-  active: 1
+  active: 0
   temperature:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: -36
   tint:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 20
 --- !u!114 &-3035397476268975690
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -385,6 +437,7 @@ MonoBehaviour:
   - {fileID: -3092411129574256978}
   - {fileID: 767865250946898960}
   - {fileID: -3124784256386381204}
+  - {fileID: -6262586932380907339}
 --- !u!114 &745525716863648238
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -406,7 +459,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0
   scatter:
     m_OverrideState: 1
     m_Value: 0
@@ -415,7 +468,7 @@ MonoBehaviour:
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.97234434, b: 0.9292453, a: 1}
+    m_Value: {r: 1, g: 0.7882353, b: 0.18396229, a: 1}
   highQualityFiltering:
     m_OverrideState: 1
     m_Value: 0
@@ -493,7 +546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
   m_Name: LiftGammaGain
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.LiftGammaGain
-  active: 1
+  active: 0
   lift:
     m_OverrideState: 1
     m_Value: {x: 0.9876872, y: 1, z: 0.9640286, w: 0}
@@ -521,7 +574,7 @@ MonoBehaviour:
     m_Value: 0.74
   contrast:
     m_OverrideState: 1
-    m_Value: 24
+    m_Value: 31
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.66162336, g: 0.6900571, b: 0.7924528, a: 1}

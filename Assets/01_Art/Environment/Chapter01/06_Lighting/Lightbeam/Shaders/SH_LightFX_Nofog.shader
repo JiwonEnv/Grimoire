@@ -1,33 +1,32 @@
-Shader "Custom/LightFX_NoFog"
+Shader "Environment/LightFX/NoFogLightBeam"
 {
     Properties
     {
-        [MainTexture] _BaseMap ("Beam Texture", 2D) = "white" {}
-        [HDR] _BaseColor ("HDR Color", Color) = (1, 0.6, 0.25, 1)
-        _Intensity ("Intensity", Range(0, 20)) = 2
-        _Opacity ("Opacity", Range(0, 1)) = 0.2
+        [MainTexture] _BaseMap("Beam Texture", 2D) = "white" {}
+        [HDR] _BaseColor("Beam Color", Color) = (1, 1, 1, 1)
+        _Intensity("Intensity", Float) = 2
+        _Opacity("Opacity", Range(0, 1)) = 0.1
     }
 
     SubShader
     {
         Tags
         {
-            "RenderType"="Transparent"
-            "Queue"="Transparent"
-            "RenderPipeline"="UniversalPipeline"
+            "RenderPipeline" = "UniversalPipeline"
+            "Queue" = "Transparent"
+            "RenderType" = "Transparent"
         }
 
         Pass
         {
-            Name "LightFX_NoFog"
-            Tags { "LightMode"="UniversalForward" }
+            Name "LightBeam"
 
-            Blend One One
+            Blend SrcAlpha One
             ZWrite Off
-            ZTest LEqual
             Cull Off
 
             HLSLPROGRAM
+
             #pragma vertex Vert
             #pragma fragment Frag
 
@@ -50,9 +49,9 @@ Shader "Custom/LightFX_NoFog"
 
             CBUFFER_START(UnityPerMaterial)
                 float4 _BaseMap_ST;
-                half4 _BaseColor;
-                half _Intensity;
-                half _Opacity;
+                float4 _BaseColor;
+                float _Intensity;
+                float _Opacity;
             CBUFFER_END
 
             Varyings Vert(Attributes input)
@@ -63,7 +62,7 @@ Shader "Custom/LightFX_NoFog"
                     TransformObjectToHClip(input.positionOS.xyz);
 
                 output.uv =
-                    input.uv * _BaseMap_ST.xy + _BaseMap_ST.zw;
+                    TRANSFORM_TEX(input.uv, _BaseMap);
 
                 return output;
             }
@@ -78,16 +77,18 @@ Shader "Custom/LightFX_NoFog"
                     );
 
                 half alpha =
-                    textureSample.a * _BaseColor.a * _Opacity;
+                    textureSample.a *
+                    _BaseColor.a *
+                    _Opacity;
 
                 half3 color =
                     textureSample.rgb *
                     _BaseColor.rgb *
-                    _Intensity *
-                    alpha;
+                    _Intensity;
 
                 return half4(color, alpha);
             }
+
             ENDHLSL
         }
     }

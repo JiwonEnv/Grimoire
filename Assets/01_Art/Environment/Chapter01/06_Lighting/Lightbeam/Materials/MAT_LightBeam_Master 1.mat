@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_LightBeam_Master
+  m_Name: MAT_LightBeam_Master 1
   m_Shader: {fileID: 4800000, guid: 6b53658dd3f66d94fad4ae86f74bdaaf, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -113,7 +113,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intensity: 27.4
+    - _Intensity: 41.1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Opacity: 1
@@ -130,7 +130,7 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 4.0779853, g: 1.3657404, b: 1.3657404, a: 1}
+    - _BaseColor: {r: 4.077986, g: 2.2233183, b: 1.3664455, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

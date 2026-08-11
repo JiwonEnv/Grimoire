@@ -42,6 +42,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6976550038043754820}
     m_Modifications:
+    - target: {fileID: 2461092420642427719, guid: 67e0964d1a92db34ebc9f45df23908e6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7950330666358522724, guid: 67e0964d1a92db34ebc9f45df23908e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.109999985

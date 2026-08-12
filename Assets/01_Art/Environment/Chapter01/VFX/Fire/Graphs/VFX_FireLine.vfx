@@ -393,8 +393,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2099
     y: -532
-    width: 7244
-    height: 3492
+    width: 7269
+    height: 3517
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4665,7 +4665,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614816}
   - {fileID: 8926484042661614817}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614805}
   m_MasterData:
@@ -20392,7 +20392,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.OrientedBox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":17.124135971069337,"y":7.094926357269287,"z":24.77492904663086},"angles":{"x":0.0,"y":0.0,"z":0.0},"size":{"x":7.18157958984375,"y":0.05000000074505806,"z":0.20000000298023225}}'
+      m_SerializableObject: '{"center":{"x":16.659255981445314,"y":7.094926834106445,"z":24.77492904663086},"angles":{"x":0.0,"y":0.0,"z":0.0},"size":{"x":5.0,"y":0.05000000074505806,"z":0.20000000298023225}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -20690,7 +20690,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615351}
   - {fileID: 8926484042661615352}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661615340}
   m_MasterData:
@@ -24300,7 +24300,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615462}
   - {fileID: 8926484042661615463}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661615451}
   m_MasterData:

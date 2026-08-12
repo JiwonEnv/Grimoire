@@ -1,214 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8867657878416323069
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eb4b772797da9440885e8bd939e9560, type: 3}
-  m_Name: ColorCurves
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ColorCurves
-  active: 1
-  master:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 2
-      m_Loop: 0
-      m_ZeroValue: 0
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  red:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 2
-      m_Loop: 0
-      m_ZeroValue: 0
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  green:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 2
-      m_Loop: 0
-      m_ZeroValue: 0
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  blue:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 2
-      m_Loop: 0
-      m_ZeroValue: 0
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  hueVsHue:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 0
-      m_Loop: 1
-      m_ZeroValue: 0.5
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  hueVsSat:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 0
-      m_Loop: 1
-      m_ZeroValue: 0.5
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  satVsSat:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 0
-      m_Loop: 0
-      m_ZeroValue: 0.5
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-  lumVsSat:
-    m_OverrideState: 1
-    m_Value:
-      <length>k__BackingField: 0
-      m_Loop: 0
-      m_ZeroValue: 0.5
-      m_Range: 1
-      m_Curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
---- !u!114 &-8474001078440926687
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e021b4c809a781e468c2988c016ebbea, type: 3}
-  m_Name: ColorLookup
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ColorLookup
-  active: 1
-  texture:
-    m_OverrideState: 1
-    m_Value: {fileID: 0}
-    dimension: 1
-  contribution:
-    m_OverrideState: 1
-    m_Value: 0
 --- !u!114 &-7956556021545932360
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -221,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
   m_Name: Tonemapping
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.Tonemapping
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 0
@@ -249,50 +40,6 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 1
     m_Value: 1000
---- !u!114 &-7194783017222980021
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb60a22f311433c4c962b888d1393f88, type: 3}
-  m_Name: PaniniProjection
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.PaniniProjection
-  active: 1
-  distance:
-    m_OverrideState: 1
-    m_Value: 0
-  cropToFit:
-    m_OverrideState: 1
-    m_Value: 1
---- !u!114 &-6481545828357704000
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa0085f50d5e54f8144f766051a691, type: 3}
-  m_Name: FilmGrain
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FilmGrain
-  active: 1
-  type:
-    m_OverrideState: 1
-    m_Value: 0
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0
-  response:
-    m_OverrideState: 1
-    m_Value: 0.8
-  texture:
-    m_OverrideState: 1
-    m_Value: {fileID: 0}
 --- !u!114 &-6429215279623303096
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -311,10 +58,10 @@ MonoBehaviour:
     m_Value: {x: 1, y: 1, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.022701474}
+    m_Value: {x: 0.94983107, y: 0.9946981, z: 1, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: -0.32917124}
+    m_Value: {x: 0.903086, y: 0.94998586, z: 1, w: 0}
 --- !u!114 &-2011183242501245460
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -336,10 +83,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.196
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 1
   rounded:
     m_OverrideState: 1
     m_Value: 0
@@ -358,10 +105,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.03
   contrast:
     m_OverrideState: 1
-    m_Value: 16
+    m_Value: 3
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.7792809, g: 0.80092216, b: 0.8301887, a: 1}
@@ -371,31 +118,6 @@ MonoBehaviour:
   saturation:
     m_OverrideState: 1
     m_Value: 18
---- !u!114 &-345368248409170474
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccf1aba9553839d41ae37dd52e9ebcce, type: 3}
-  m_Name: MotionBlur
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.MotionBlur
-  active: 1
-  mode:
-    m_OverrideState: 1
-    m_Value: 0
-  quality:
-    m_OverrideState: 1
-    m_Value: 0
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0
-  clamp:
-    m_OverrideState: 1
-    m_Value: 0.05
 --- !u!114 &-222684334641797724
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -411,13 +133,13 @@ MonoBehaviour:
   active: 1
   redOutRedIn:
     m_OverrideState: 1
-    m_Value: 84
+    m_Value: 86
   redOutGreenIn:
     m_OverrideState: 1
     m_Value: 3
   redOutBlueIn:
     m_OverrideState: 1
-    m_Value: -3
+    m_Value: -4
   greenOutRedIn:
     m_OverrideState: 1
     m_Value: 0
@@ -451,7 +173,6 @@ MonoBehaviour:
   components:
   - {fileID: 6191122516589967004}
   - {fileID: -1112508662707279991}
-  - {fileID: -345368248409170474}
   - {fileID: 6015184967486097477}
   - {fileID: 703643657568076751}
   - {fileID: -7956556021545932360}
@@ -459,15 +180,9 @@ MonoBehaviour:
   - {fileID: -222684334641797724}
   - {fileID: -6429215279623303096}
   - {fileID: -2011183242501245460}
-  - {fileID: -7194783017222980021}
   - {fileID: 8519232756678935036}
-  - {fileID: -8867657878416323069}
   - {fileID: 5480083896793262121}
-  - {fileID: 7999902742201944929}
-  - {fileID: -8474001078440926687}
   - {fileID: 5427020585179971643}
-  - {fileID: -6481545828357704000}
-  - {fileID: 2723208533904721603}
 --- !u!114 &703643657568076751
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -480,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.DepthOfField
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 0
@@ -514,34 +229,6 @@ MonoBehaviour:
   bladeRotation:
     m_OverrideState: 1
     m_Value: 0
---- !u!114 &2723208533904721603
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
-  m_Name: LensDistortion
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.LensDistortion
-  active: 1
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0
-  xMultiplier:
-    m_OverrideState: 1
-    m_Value: 1
-  yMultiplier:
-    m_OverrideState: 1
-    m_Value: 1
-  center:
-    m_OverrideState: 1
-    m_Value: {x: 0.5, y: 0.5}
-  scale:
-    m_OverrideState: 1
-    m_Value: 1
 --- !u!114 &5427020585179971643
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -557,10 +244,10 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 22
   tint:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -12
 --- !u!114 &5480083896793262121
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -576,7 +263,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.03
   tintColor:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -643,10 +330,10 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.27862817, y: 0.6919312, z: 1, w: 0}
+    m_Value: {x: 0.58670634, y: 0.78096277, z: 1, w: -0.33774835}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9329476, z: 0.85000265, w: 0}
+    m_Value: {x: 0.9327657, y: 1, z: 0.9477896, w: 0}
   highlights:
     m_OverrideState: 1
     m_Value: {x: 0.993171, y: 0.99487805, z: 1, w: 0}
@@ -677,13 +364,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {r: 0.4245283, g: 0.28635636, b: 0.2743414, a: 1}
+    m_Value: {r: 0.9245283, g: 0.55641586, b: 0.53640085, a: 1}
   highlights:
     m_OverrideState: 1
-    m_Value: {r: 0.7169812, g: 0.539792, b: 0.44980422, a: 1}
+    m_Value: {r: 0.7924528, g: 0.33179304, b: 0.22054112, a: 1}
   balance:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 4
 --- !u!114 &6191122516589967004
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -705,7 +392,7 @@ MonoBehaviour:
     m_Value: 12.9
   intensity:
     m_OverrideState: 1
-    m_Value: 5.51
+    m_Value: 5
   scatter:
     m_OverrideState: 1
     m_Value: 0.8
@@ -732,22 +419,6 @@ MonoBehaviour:
     m_Value: {fileID: 0}
     dimension: 1
   dirtIntensity:
-    m_OverrideState: 1
-    m_Value: 0
---- !u!114 &7999902742201944929
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
-  m_Name: ChromaticAberration
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ChromaticAberration
-  active: 1
-  intensity:
     m_OverrideState: 1
     m_Value: 0
 --- !u!114 &8519232756678935036
